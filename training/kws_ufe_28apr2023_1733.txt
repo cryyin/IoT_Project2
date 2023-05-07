@@ -1,0 +1,11 @@
+i16min            = -32768
+i16max            = 32767
+fsamp             = 16000
+wave_length_ms    = 1000
+wave_length_samps = 16000
+window_size_ms    = 60
+window_step_ms    = 40
+num_filters       = 32
+use_microfrontend = True
+label_list        = ['_silence', '_unknown', 'left', 'right']
+spectrogram_shape = (64, 24, 32, 1)
